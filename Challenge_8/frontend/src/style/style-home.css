@@ -1,0 +1,368 @@
+/* CSS Image Service */
+
+.img-service {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: flex-start;
+  padding: 110px 60px 30px 0 !important;
+  margin: 0 0 50px 0;
+}
+
+.img-service img {
+  width: 459px;
+  height: 428px;
+}
+
+/* CSS Description Service  */
+
+.description {
+  padding: 150px 0 0 0;
+  margin: 0 0 50px 0;
+}
+
+.title-desc {
+  margin: 0 0 20px 80px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.article-desc {
+  margin: 0 0 18px 80px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.description ul {
+  list-style: none;
+  padding: 0 0 0 80px;
+  margin: 0;
+}
+
+.description ul li {
+  margin: 15px 0 0 0;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.description ul li img {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  margin: 1px 0 0 0;
+  background-color: #cfd4ed;
+  padding: 5px 5px 5px 5px;
+  border-radius: 100%;
+}
+
+.description ul li p {
+  margin: 0 0 0 40px;
+  padding: 3px 0 0 0;
+}
+
+/* CSS Why US */
+
+.why-us {
+  padding: 100px 0 5px 0;
+  margin: 0 0 0 110px;
+}
+
+.why-us h3 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0 0 16px 0;
+}
+
+.why-us p {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  margin: 0 0 40px 0;
+}
+
+/* CSS Desc Why Us */
+
+.desc-why-us {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 50px;
+  margin: 0 0 100px 0;
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4 {
+  padding: 24px;
+  border: 2px solid #D0D0D0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* CSS Item - 1 */
+
+.bg-img-item-1 {
+  background-color: #F9CC00;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-1 h6 {
+  margin: 16px 0 16px 0;
+}
+
+.item-1 p {
+  margin: 0 !important;
+}
+
+/* CSS Item - 2 */
+
+.bg-img-item-2 {
+  background-color: #FA2C5A;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-2 h6 {
+  margin: 16px 0 16px 0;
+}
+
+.item-2 p {
+  margin: 0 !important;
+}
+
+/* CSS Item - 3 */
+
+.bg-img-item-3 {
+  background-color: #0D28A6;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-3 h6 {
+  margin: 16px 0 16px 0;
+}
+
+.item-3 p {
+  margin: 0 !important;
+}
+
+/* CSS Item - 4 */
+
+.bg-img-item-4 {
+  background-color: #5CB85F;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-4 h6 {
+  margin: 16px 0 16px 0;
+}
+
+.item-4 p {
+  margin: 0 !important;
+}
+
+/* CSS Testimonial */
+
+.testimonial {
+  text-align: center;
+  padding-top: 100px;
+  margin: 0 0 40px 0;
+}
+
+.testimonial h3 {
+  margin: 0 0 16px 0;
+  font-family: Helvetica;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.testimonial p {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+/* CSS Caraousel */
+
+.box-testimonial {
+  background-color: #F1F3FF;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo {
+  width: 80px;
+  height: 80px;
+  margin: 0 16px 0 16px;
+}
+
+.item-testimonial {
+  padding: 20px;
+}
+
+.item-testimonial img {
+  width: 80px;
+  height: 16px;
+  margin: 14px 0 10px 0;
+}
+
+.item-testimonial p {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.box-testimonial .about-me {
+  font-style: Helvetica;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.my-btn-carousel {
+  display: flex !important;
+  justify-content: center !important;
+  margin-bottom: 100px;
+}
+
+.cstm-btn {
+  width: 30px !important;
+  height: 30px !important;
+  border: none !important;
+  border-radius: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 24px 24px 0 0 !important;
+}
+
+.cstm-btn:hover {
+  background: #5CB85F;
+}
+
+.btn-crsl {
+  display: flex;
+  justify-content: center;
+}
+
+/* CSS Deskripsi Sewa Mobil */
+
+.bg-desc-sewa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 100px 0;
+}
+
+.desc-sewa {
+  width: 1270px;
+  height: 326px;
+  background-color: #0D28A6;
+  border-radius: 13px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.desc-sewa h2 {
+  margin: 0 0 20px 0;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.desc-sewa p {
+  margin: 0 0 60px 0;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+/* CSS FAQ */
+
+.faq-container {
+  height: 344px;
+  padding-top: 110px;
+  margin: 0 136px 300px 136px !important;
+}
+
+.faq-title h5 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: -35px;
+}
+
+.faq-title p {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  margin-left: -35px;
+}
+
+.my-accordion {
+  margin-bottom: 16px !important;
+  border: 1px solid #D4D4D4 !important;
+  box-sizing: border-box !important;
+  border-radius: 4px !important;
+}
+
+.cstm-btn-accordion {
+  font-family: Helvetica !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  font-size: 13px !important;
+}
+
+.cstm-body-accordion {
+  font-family: Helvetica !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  font-size: 13px !important;
+}
